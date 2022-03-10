@@ -1,0 +1,72 @@
+/* eclint mocha, env, es6 */
+
+(function ($) {
+
+    'use strict';
+
+    $(function () {
+
+        'use strict';
+
+        /* ==================
+            Ajax Settings
+        ================== */
+
+        let ajaxIndex = 0;
+
+        $('form').submit(function (e) {
+
+            if (!e) {
+
+                let xhr = $.ajax({
+                    url: $(this).attr('action'),
+                    type: $(this).attr('method'),
+                    data: $(this).serialize(),
+                    contentType: false,
+                    processData: false,
+                    cache: false
+                });
+
+                // success
+                xhr.done(function (data) {
+
+                    // dataType: json -> JSON.parse(var) || $.parseJSON(var)
+
+                    ajaxIndex++;
+
+                    localStorage.setItem(`form-${ajaxIndex}`, data);
+
+                });
+
+                // error
+                xhr.fail(function (jqXHR, textStatus) {
+
+                    ajaxIndex++;
+
+                    console.log(`AjaxError, status: ${textStatus}, data: ${jqXHR}`);
+
+                    localStorage.setItem(`formErr-${ajaxIndex}`, jqXHR);
+
+                });
+
+                return;
+
+            }
+
+        });
+
+        function validate (input) {
+            if ($(input).attr('type') === 'email' || $(input).attr('name') === 'email') {
+                if ($(input).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) === null) {
+                    return false;
+                }
+            } else {
+                if ($(input).val().trim() === '') {
+                    return false;
+                }
+            }
+        }
+
+    });
+
+})(jQuery, window, document);

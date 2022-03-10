@@ -1,0 +1,413 @@
+/*================
+    MEDIA
+================*/
+
+/* 1400px SCREEN */
+@media all and (max-width: 1400px) {
+    .inf-hed-div, .logo-div, .navig, .block-nag, #main, .foot-div, .copy-div, .site-menu,
+    .header-container .header-div-user, .header-div-menu,
+    .header-div-additional-menu, .div-menu-site > div, .div-user-button > div, .div-user-button,
+    .div-menu-site, .nav-header, .logo-site, .index-forum-news-section, .hs-bottom-nav, .loader-row {max-width: 90%}
+    .arrow-up-site {padding: 0 17px;}
+    #main-form {
+        max-width: 60%;
+    }
+    .arrow-div i {
+        font-size: 1.2rem;
+        color: rgb(14 204 170);
+    }
+
+    .inf-hed-div > ul li a {
+        font-size: 11px;
+    }
+
+    .site-div-menu > li .sub-menu li a {
+        font-size: 0.730rem;
+    }
+
+    .nav-div menu > li a {
+        font-size: 0.800rem;
+        font-weight: 500;
+    }
+}
+
+/* 1100px SCREEN */
+@media all and (max-width:  1230px) {
+    .inf-hed-div, .logo-div, .navig, .block-nag, #main, .foot-div, .copy-div, .site-menu,
+    .header-container, .header-div-user, .header-div-menu,
+    .header-div-additional-menu, .div-menu-site > div, .div-user-button > div, .div-user-button,
+    .div-menu-site, .nav-header, .logo-site, .loader-row {max-width: 90%}
+    #main-form {
+        max-width: 60%;
+    }
+    .menu-website .forum-a, .menu-website .users-a {
+        font-size: 15px
+    }
+
+    .forum-a > i {
+        font-size: 14px 
+    }
+
+    .menu-website > ul > li {
+        padding: 0 0;
+    }
+
+    #navigator > ul > li > a:before {
+        height: 40px;
+    }
+
+    #navigator > ul > li > a:after {
+        height: 20px;
+    }
+
+    #header .logo-header {
+        display: none;
+        margin: 0;
+    }
+
+    #header .logo-header span {
+        display: none
+    }
+
+    #navigator > ul > li > a {
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        display: block;
+        font-size: 14px;
+        padding: 0px 20px;
+        font-size: 13px;
+        line-height: 40px;
+        font-weight: 400;
+        padding-top: auto;
+        letter-spacing: 0.5px;
+        transition: all 0.2s linear;
+        position: relative;
+    }
+
+    .popup-nav-menu {
+        width: 240px;
+    }
+}
+
+@media all and (max-width: 1040px) {
+    .inf-hed-div, .logo-div, .navig, .block-nag, #main, .site-menu, .logo-site, .index-forum-news-section, .aside, .loader-row {
+        width: 100%;
+        max-width: 100%;
+    }
+    #main-form {
+        width: 100%;
+        max-width: 100%;
+    }
+    .header-section-bottom {
+        margin-top: 65px;
+    }
+    .form-in {
+        padding: 20px 26px;
+    }
+    .input {
+        margin: 0;
+    }
+    .navig {
+        margin: 40px 20px 20px 6px;
+    }
+    .aside {
+        margin: 0;
+    }
+
+    .section-members {
+        display: block;
+    }
+
+    #article-load {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .art-load-bot > .tsk {
+        display: none;
+    }
+
+    .members-row {
+        margin: 0 0 16px 0;
+    }
+
+    .art-load-flex-2 {
+        width: 100%;
+        margin: 16px 0 0 0;
+    }
+
+    #header {
+        display: none;
+    }
+
+    #header-mobile-open {
+        display: block;
+    }
+
+    .nav-header, .foot-div {
+        max-width: 768px;
+    }
+
+    #main, .nav-bar-head {
+        display: block;
+        margin: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+
+    .site-menu, .menu-site-ul-2, .menu-site-ul-1 {
+        display: block;
+    }
+
+    .logos-row, .row-list-section {
+        border-radius: 0px;
+    }
+
+    .row-glab .row-section-1, .row-glab .row-section-2 {
+        display: block;
+    }
+
+    .is-active-sect {
+        border-radius: 0px;
+    }
+
+    .menu-website > ul > li {
+        padding: 0px;
+    }
+
+    .menu-website {
+        display: block;
+    }
+
+    .logo-h1 {
+        margin-right: 0;
+    }
+
+    .social, .logo-social, .arrow-up-site, #sub_close {display: none;}
+
+}
+
+/* 768px SCREEN */
+@media all and (max-width: 768px) {
+    .inf-hed-div, .logo-div, .navig, .block-nag, #main, .foot-div, .copy-div, .site-menu, .logo-site {width: 100%;}
+
+    .row-list-section > ul > li .name-for .name-for-div > ul > li {
+        float: none
+    }
+
+    .logos-row > div > h1 {
+        font-size: 15px;
+    }
+
+    .logos-row > div > img {
+        padding: 3px;
+    }
+
+    .logos-row > i {
+        font-size: 16px;
+    }
+
+    .head-load-search-row {
+        display: block;
+    }
+
+    .head-load-search {
+        padding: 10px;
+    }
+
+    .head-load-search-row .acc {
+        margin: 10px 0 0 0;
+    }
+
+    .base-content {
+        display: block;
+    }
+
+    .site-menu, .menu-site-ul-2, .menu-site-ul-1 {
+        display: block;
+    }
+
+    .logos-row, .row-list-section {
+        border-radius: 0px;
+    }
+
+    .row-glab .row-section-1, .row-glab .row-section-2 {
+        display: block;
+    }
+
+    .is-active-sect {
+        border-radius: 0px;
+    }
+
+    .nav-header {
+        padding: 10px 10px;
+        display: block;
+    }
+
+    .menu-website {
+        display: block;
+    }
+
+    .logo-h1 {
+        margin-right: 0;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: auto;
+        position: relative;
+    }
+
+    .p-navgroup-popup {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-website>ul {
+        margin: 0;
+        padding: 0;
+        display: block;
+        justify-content: center;
+    }
+
+    .menu-website .forum-a, .menu-website .users-a {
+        font-size: 15px;
+    }
+
+    .menu-site-ul-2 {padding: 0 0 20px 0;}
+
+    .account-ul {
+        width: 100%;
+        left: 0;
+    }
+
+    #site-menu {
+        border: 1px solid #ccc;
+        display: none;
+    }
+
+   
+
+    .aside {
+        width: 100%;
+        margin: 15px 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+
+    #but-search {float: none}
+
+    #main, .foot-div, .nav-bar-head {
+        display: block;
+        margin: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+
+    .logos, .body-glab-text, .row-div {
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .p-popup-acount {
+        margin: 0;
+    }
+
+    .social, .logo-social, .arrow-up-site {display: none;}
+
+    .info-div {
+        margin: 0;
+        border: none;
+        border-bottom: 1px solid #34495e;
+    }
+
+    .copy-p, .title-site {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 2.3rem;
+    }
+
+    #sing-form p, #login-form p {font-size: 0.800rem}
+
+    .regul-sign {font-size: 0.830rem}
+
+    .regulat-div h1 {
+        font-size: var(--div_text);
+    }
+
+    .aside-social-block, .aside-statistics-block {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #footer {
+        margin-top: 80px
+    }
+
+    .index-forum-news-div>label {
+        padding: 5px 0 5px 0;
+    }
+
+    .account-img {
+        height: none;
+        float: none;
+    }
+
+    .account-img > img {
+        width: 100%;
+        height: 250px;
+        border-radius: 3px;
+    }
+
+    .account-title {
+        margin: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    .account-pols {
+        background: none;
+        text-align: center;
+        padding: 16px 20px;
+        margin: 0;
+        display: block;
+        border-radius: 2px;
+        color: rgb(56, 71, 100);
+    }
+
+    .account-right {
+        padding: 0;
+        height: none;
+    }
+
+    .pairJustifier {
+        display:block;
+    }
+
+    .pairs {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .if-news {
+        display: block
+    }
+
+}
+
+@media all and (max-width: 350px) {
+    .ul-site-div {
+        position: relative;
+        padding: 0 5px;
+    }
+
+    .menu-website .forum-a, .menu-website .users-a, .regul-a {
+        padding: 10px;
+    }
+}

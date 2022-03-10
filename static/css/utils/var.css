@@ -1,0 +1,28 @@
+:root {
+    /* animation */
+    --tr_anim: all 0.3s linear;
+
+    /* font-family */
+    --font_doc: normal 1rem "Roboto", sans-serif;
+    --font_text: "Roboto", sans-serif !important;
+
+    /* font-size */
+    --size_menu: 1rem;
+    --size_title: 2.9rem;
+    --div_text: 0.950rem;
+    --span_text: 0.830rem;
+
+    /* color */
+    --list_color: #78bbe6;
+    --h1_color: #5c448e;
+    --white: #fff;
+    --hover-fg: #333;
+
+    /* background */
+    --section_bg: #283644;
+    --menu-bg: #34495e;
+
+    /* width */
+    --width_desktop: 1300px;
+    --width_form: 1050px;
+}

@@ -1,0 +1,8 @@
+# www.robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow: /admin/
+Host: reensq.breusav.ru
+
+Sitemap: http://reensq.breusav.ru/sitemap.xml
